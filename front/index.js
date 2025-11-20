@@ -45,6 +45,21 @@ async function deleteTodo(id) {
     console.log(err);
   }
 }
+async function editTodo(id, todo) {
+  try {
+    const response = await fetch(`${URL}/${id}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(todo),
+    });
+    const data = await response.json();
+    console.log(data);
+  } catch (err) {
+    console.log(err);
+  }
+}
 
 const btn = document.getElementById("todoBtn");
 btn.addEventListener("click", () => {
