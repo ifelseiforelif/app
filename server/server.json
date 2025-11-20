@@ -1,0 +1,64 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "a title",
+      "comments": "купити хліб",
+      "status": "done"
+    },
+    {
+      "id": "2",
+      "title": "b title",
+      "comments": "приготувати вечерю",
+      "status": "pending"
+    },
+    {
+      "id": "3",
+      "title": "c title",
+      "comments": "зателефонувати мамі",
+      "status": "in progress"
+    },
+    {
+      "id": "4",
+      "title": "d title",
+      "comments": "прибрати в кімнаті",
+      "status": "done"
+    },
+    {
+      "id": "5",
+      "title": "e title",
+      "comments": "прочитати 20 сторінок книги",
+      "status": "pending"
+    },
+    {
+      "id": "6",
+      "title": "f title",
+      "comments": "написати домашнє завдання",
+      "status": "in progress"
+    },
+    {
+      "id": "7",
+      "title": "g title",
+      "comments": "погуляти з собакою",
+      "status": "done"
+    },
+    {
+      "id": "8",
+      "title": "h title",
+      "comments": "зробити резервну копію файлів",
+      "status": "pending"
+    },
+    {
+      "id": "9",
+      "title": "i title",
+      "comments": "оплатити рахунки",
+      "status": "done"
+    },
+    {
+      "id": "10",
+      "title": "j title",
+      "comments": "купити подарунок",
+      "status": "in progress"
+    }
+  ]
+}
